@@ -11,15 +11,23 @@ public class Main {
         }
         System.out.println("--------------");
     }
+
     public static void evenNumber() {
-        for (int k = 2; k <= 15; k = k+2){
+        for (int k = 2; k <= 15; k = k + 2) {
             System.out.println(k);
         }
         System.out.println("--------------");
     }
 
+    public static void oddNumber() {
+        for (int m = 1; m <= 15; m = m + 2) {
+            System.out.println(m);
+        }
+    }
+
     public static void main(String[] args) {
         lesson1();
         evenNumber();
+        oddNumber();
     }
 }
